@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact - Miles Davis</title>
+    <meta charset="utf-8">
+    <link href="final.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="signaturethumb.png">&nbsp;&nbsp;
+            <a href="index.html">Home</a>&nbsp;&nbsp;
+            <a href="bio.html">Bio</a>&nbsp;&nbsp;
+            <a href="trivia.html">Trivia</a>&nbsp;&nbsp;
+            <a href="albums.html">Music</a>&nbsp;&nbsp;
+            <a href="films.html">Film</a>&nbsp;&nbsp;
+            <a href="connect.html">Connect</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="herocontact">
+            <p id="titlecontact">Contact</p>
+        </div>
+
+        <h1>Have something to tell us?</h1>
+
+        <p>We want this website to be the best that it can possibly be, and that includes being responsive to feedback when needed. If you have something that you believe we should add, remove, etc.&#8212;we'd love to know!</p>
+
+        <form method="post" action="thankyou.html">
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="myEmail" id="email" required>
+
+            <label for="reason">Reason for Contact:</label>
+            <input type="text" list="reasons" id="reason" name="myReason" required>
+
+            <datalist id="reasons">
+                <option value="I have a question" label="Question"></option>
+                <option value="I have a fun fact" label="Fun Fact"></option>
+                <option value="Some of the information is wrong" label="Wrong Info"></option>
+                <option value="The website is broken" label="Broken Site"></option>
+                <option value="Other" label="Other"></option>
+            </datalist>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="myComments" rows="4" cols="20" required></textarea>
+
+            <br>
+            <button type="submit" id="mySubmit" onclick="alert('If you are reading this, thank you so much for trying out my website!\n-Miles (again) :)')">Send</button>
+        </form>
+        
+    </main>
+
+    <footer>
+        Copyright &copy; 2022 Miles Davis<br>
+        <a href="mailto:mdavis114@mysaddleback.edu">mdavis114@mysaddleback.edu</a>
+    </footer>
+
+</body>
+
+</html>

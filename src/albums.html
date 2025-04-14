@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Discography - Miles Davis</title>
+    <meta charset="utf-8">
+    <link href="final.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+</head>
+
+    <header>
+        <nav>
+            <img src="signaturethumb.png">&nbsp;&nbsp;
+            <a href="index.html">Home</a>&nbsp;&nbsp;
+            <a href="bio.html">Bio</a>&nbsp;&nbsp;
+            <a href="trivia.html">Trivia</a>&nbsp;&nbsp;
+            <a href="albums.html">Music</a>&nbsp;&nbsp;
+            <a href="films.html">Film</a>&nbsp;&nbsp;
+            <a href="connect.html">Connect</a>&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="heroalbums">
+            <p id="titlealbums">Discography</p>
+        </div>
+
+    <p id="credit"><br>Note: This page contains only Davis' most major albums; please visit the <a href="https://en.wikipedia.org/wiki/Miles_Davis_discography" target="_blank">official Wikipedia article</a> for the most complete information.
+
+    Table scripts provided by the <a href="https://datatables.net/" target="_blank">DataTables CDN.</a></p><br><br>
+
+    <script>
+        $(document).ready( function () {
+        $('#albums').DataTable({
+            pageLength: 12
+        
+            } );
+        } );
+    </script>
+
+
+    <table id="albums">
+  <thead>
+      <tr>
+        <th>Album Name</th>
+        <th>Release Year</th>
+        <th>Format</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>The New Sounds</td>
+        <td>1951</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>Young Man With a Horn</td>
+        <td>1952</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>Blue Period</td>
+        <td>1953</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>The Compositions of Al Cohn</td>
+        <td>1953</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>Miles Davis Volume 2</td>
+        <td>1954</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>Miles Davis Volume 3</td>
+        <td>1954</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>Miles Davis Quartet</td>
+        <td>1954</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>All-Stars, Volume 1</td>
+        <td>1955</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>All-Stars, Volume 2</td>
+        <td>1955</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>All Star Sextet</td>
+        <td>1955</td>
+        <td>10" LP</td>
+      </tr>
+      <tr>
+        <td>The Musings of Miles</td>
+        <td>1955</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Blue Moods</td>
+        <td>1955</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Dig</td>
+        <td>1956</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Miles: The New Miles Davis Quintet</td>
+        <td>1956</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Birth of the Cool</td>
+        <td>1957</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Walkin'</td>
+        <td>1957</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Miles Ahead</td>
+        <td>1957</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Milestones</td>
+        <td>1958</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Miles Davis and the Modern Jazz Giants</td>
+        <td>1959</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Kind of Blue</td>
+        <td>1959</td>
+        <td>LP, Reel Tape</td>
+      </tr>
+      <tr>
+        <td>Workin'</td>
+        <td>1959</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Sketches of Spain</td>
+        <td>1960</td>
+        <td>LP, Reel Tape</td>
+      </tr>
+      <tr>
+        <td>Seven Steps to Heaven</td>
+        <td>1963</td>
+        <td>LP, Reel Tape</td>
+      </tr>
+      <tr>
+        <td>Quiet Nights</td>
+        <td>1963</td>
+        <td>LP, Reel Tape</td>
+      </tr>
+      <tr>
+        <td>Miles Smiles</td>
+        <td>1967</td>
+        <td>LP, Reel Tape</td>
+      </tr>
+      <tr>
+        <td>Sorcerer</td>
+        <td>1967</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Nefertiti</td>
+        <td>1968</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Miles in the Sky</td>
+        <td>1968</td>
+        <td>LP</td>
+      </tr>
+      <tr>
+        <td>Bitches Brew</td>
+        <td>1970</td>
+        <td>LP, Reel Tape, 8-Track</td>
+      </tr>
+      <tr>
+        <td>On the Corner</td>
+        <td>1972</td>
+        <td>LP, CD</td>
+      </tr>
+      <tr>
+        <td>Get Up with It</td>
+        <td>1974</td>
+        <td>LP, CD</td>
+      </tr>
+      <tr>
+        <td>The Man with the Horn</td>
+        <td>1981</td>
+        <td>LP, CD</td>
+      </tr>
+      <tr>
+        <td>Star People</td>
+        <td>1983</td>
+        <td>LP, CD</td>
+      </tr>
+      <tr>
+        <td>You're Under Arrest</td>
+        <td>1985</td>
+        <td>LP, CD</td>
+      </tr>
+      <tr>
+        <td>Doo-Bop</td>
+        <td>1991</td>
+        <td>LP, CD, CS</td>
+      </tr>
+      <tr>
+        <td>Rubberband</td>
+        <td>2019</td>
+        <td>LP, CD, Digital</td>
+      </tr>
+    </tbody>
+
+    </table>
+
+
+
+    </main>
+
+    <footer>
+        Copyright &copy; 2022 Miles Davis<br>
+        <a href="mailto:mdavis114@mysaddleback.edu">mdavis114@mysaddleback.edu</a>
+    </footer>
+
+</body>
+
+</html>

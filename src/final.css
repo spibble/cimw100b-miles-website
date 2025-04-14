@@ -1,0 +1,135 @@
+* {margin: 0; padding: 0;}
+
+nav {width: 100%; display: block; text-align: center;}
+
+nav a:link, nav a:visited {text-decoration: none; color: white;}
+nav a:hover {text-decoration: none; color: lightblue;}
+
+header {height: 130px; width: 100%;
+		font-size: 2em; font-family: "Rubik Mono One", sans-serif; text-align: center;
+		display: flex; flex-direction: column;
+		background-color: black; color: white;
+		border-bottom: 2px solid dimgrey;}
+
+body {background-color: black; color: white;}
+
+main {margin-bottom: 20px;}
+
+footer {text-align: center; text-decoration: italic;
+		font-family: Georgia, serif; font-size: 1em;
+		background-color: rgb(166, 123, 53); color: white;
+		border-top: 2px solid dimgray;}
+
+a {color: lightblue;}
+
+h1 {padding-left: 100px; padding-right: 100px;
+	font-size: 3em; text-decoration: underline; font-family: Tahoma, sans-serif;
+	margin-top: 0.5em; margin-bottom: 0.3em}
+
+p {padding-left: 100px; padding-right: 100px; margin-bottom: 0.3em;
+   font-size: 1.3em; font-family: Georgia, serif;}
+
+   #credit {font-size: 0.7em; font-style: italic;}
+
+ul {padding-left: 100px; padding-right: 100px;
+	font-size: 1.3em; font-family: Georgia, serif;
+	margin-bottom: 0.3em;}
+
+button {margin-left: 100px; margin-right: 100px;
+		background-color: dimgray; color: white; border: 1px solid white;
+		font-size: 1em; font-family: Tahoma, sans-serif;}
+
+form {margin-left: 100px; margin-right: 100px;
+	  display: flex; flex-direction: column;
+	  margin-top: 0.5em; margin-bottom: 1em;
+	  font-family: Georgia, serif; font-size: 1.3em;}
+
+	  form button {margin: 0px; max-width: 200px;}
+	  input {max-width: 200px;}
+
+video {float: right; padding-right: 100px;}
+
+table {font-family: Georgia, serif; font-size: 1.3em;
+		 padding-left: 100px; padding-right: 100px;}
+
+.heromain {height: 920px; width: 100%; margin-bottom: 20px;
+		   background-image: url("hero.png"); background-repeat: no-repeat;}
+
+.herobio {height: 540px; width: 100%;
+		  background-image: url("herobio.png"); background-repeat: no-repeat;
+		  background-size: cover}
+
+.heroalbums {height: 540px; width: 100%;
+		     background-image: url("heroalbums.png"); background-repeat: no-repeat;
+		 	 background-size: cover}
+
+.herofilms {height: 540px; width: 100%;
+		   background-image: url("herofilms.png"); background-repeat: no-repeat;
+		   background-size: cover}
+
+.heroconnect {height: 540px; width: 100%;
+		     background-image: url("heroconnect.png"); background-repeat: no-repeat;
+		 	 background-size: cover}
+
+.herocontact {height: 540px; width: 100%;
+		     background-image: url("herocontact.png"); background-repeat: no-repeat;
+		 	 background-size: cover}
+
+.herotrivia {height: 540px; width: 100%;
+		     background-image: url("herotrivia.png"); background-repeat: no-repeat;
+		 	 background-size: cover}
+
+
+
+	@keyframes fadeIn {
+		from {opacity: 0}
+		to {opacity: 100%}
+	      }
+
+div {border-bottom: 2px solid dimgray;}
+
+div p {height: auto;
+	   padding: 0.25em;
+	   position: relative;
+	   color: white; font-family: "Rubik Mono One";
+         animation-name: fadeIn; animation-duration: 2s; animation-timing-function: ease-out;}
+
+	#title {width: 400px;
+			top: 200px; left: 100px;
+			font-size: 5em;
+			background-color: rgba(166, 123, 53,.65);}
+
+	#titlebio {width: 200px;
+		       top: 200px; left: 100px;
+		       font-size: 5em;
+			   background-color: rgba(166, 123, 53,.65);}
+
+	#titlealbums {width: 330px;
+			      top: 200px; left: 100px;
+			      font-size: 5em;
+			      background-color: rgba(166, 123, 53,.65);}
+
+	#titlefilms {width: 270px;
+			     top: 200px; left: 100px;
+			     font-size: 5em;
+			     background-color: rgba(166, 123, 53,.65);}
+
+	#titleconnect {width: 200px;
+			       top: 200px; left: 100px;
+			       font-size: 5em;
+			       background-color: rgba(166, 123, 53,.65);}
+
+	#titlecontact {width: 200px;
+			       top: 200px; left: 100px;
+			       font-size: 5em;
+			       background-color: rgba(166, 123, 53,.65);}
+
+	#titletrivia {width: 200px;
+				  top: 200px; left: 100px;
+				  font-size: 5em;
+				  background-color: rgba(166,123,53,.65);}
+
+	#title2 {width: 400px;
+			 float: right; top: 200px; right: 100px;
+		 	 font-size: 1.7em;
+			 background-color: rgba(166, 123, 53,.65);}
